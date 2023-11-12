@@ -6,7 +6,7 @@ import { setCredentials } from "../../features/auth/authSlice";
 const baseQuery = fetchBaseQuery({
   // the url is the same
   // baseUrl: "https://technotes-api.onrender.com",
-  baseUrl: "https://technotes-api-y1fv.onrender.com/",
+  baseUrl: "https://technotes-api-y1fv.onrender.com",
   // not sure what this is? maybe include credentials, i  am guessing pass and username
   credentials: "include",
   // a func, takes a header and a getState from within an obj?
