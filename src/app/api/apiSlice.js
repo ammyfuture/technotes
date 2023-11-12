@@ -5,6 +5,7 @@ import { setCredentials } from "../../features/auth/authSlice";
 // here we get the fetch func and write it outside the createApi and make it more complicated
 const baseQuery = fetchBaseQuery({
   // the url is the same
+  // baseUrl: "https://technotes-api.onrender.com",
   baseUrl: "https://technotes-api.onrender.com",
   // not sure what this is? maybe include credentials, i  am guessing pass and username
   credentials: "include",
